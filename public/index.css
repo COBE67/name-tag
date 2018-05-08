@@ -1,39 +1,81 @@
 .flex-container {
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;*/
-    /*background-color: dodgerblue;*/
-    height: 300px;
-    width: 450px;
-    border-radius: 14px;
-    margin-left: 30%;
-    margin-top: 10%;
+    margin: 5% 38.5% 0% 30%;
+    text-align: center;
+
 }
-.flex-item1 {
+.Hello {
     background-color: #f11822;
     width: 450px;
-    height: 120px;
-    margin: 0px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    height: 80px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /*border-bottom: 0px;*/
+    border-bottom: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
 }
-.flex-item2 {
+.Hello h1 {
+    color: snow;
+    font-size: 45px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+    letter-spacing: 4px;
+}
+.Hello h4 {
+    color: snow;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.Name {
     background-color: #f1f1f1;
     width: 450px;
-    height: 150px;
-    /*margin: 10px;*/
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    height: 190px;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
+
 }
-.flex-item3 {
+.Name h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 45px;
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+.Helio {
     background-color: #f11822;
     width: 450px;
     height: 30px;
-    line-height: 75px;
-    font-size: 30px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px;
+    border-color: black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-top: none;
 }
-.flex-item1 h1 {
-
+.Helio h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 6px;
 }
